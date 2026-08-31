@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Gaspar</title>
+<meta name="description" content="Projects by David Gaspar.">
+<style>
+  :root {
+    --bg: #ffffff; --ink: #14181f; --ink-2: #4d5866; --rule: #d8dee8; --accent: #1c4f8b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --ink: #e8edf4; --ink-2: #9aa6b4; --rule: #2a3038; --accent: #4d94e0; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink); line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 34rem; margin: 0 auto; padding: 5rem 1.25rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .35rem; letter-spacing: -0.02em; }
+  .sub { color: var(--ink-2); margin: 0 0 2.5rem; }
+  h2 { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2);
+       margin: 0 0 .75rem; padding-bottom: .5rem; border-bottom: 1px solid var(--rule); }
+  .item { padding: .85rem 0; border-bottom: 1px solid var(--rule); }
+  .item a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .item a:hover { text-decoration: underline; }
+  .item p { margin: .2rem 0 0; color: var(--ink-2); font-size: .93rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>David Gaspar</h1>
+  <p class="sub">Projects published from this account.</p>
+
+  <h2>Projects</h2>
+  <div class="item">
+    <a href="./9thirtyone/">9ThirtyOne</a>
+    <p>Cadet and instructor feedback for AFROTC detachments. Runs from a folder of static
+    files, and stores every record in a Google Drive folder the detachment owns.</p>
+  </div>
+</div>
+</body>
+</html>
